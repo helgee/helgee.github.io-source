@@ -1,0 +1,47 @@
+## Basic Configuration
+
+baseurl = "https://helgeeichhorn.de"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Helge Eichhorn"
+title = "Helge Eichhorn"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Helge Eichhorn"
+intro = "Astrodynamicist. Scientific Programmer. Hiker."
+description = "Space, the final frontier..."
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+
+## Social Accounts
+[params.social]
+github = "helgee"
+linkedin = "helgeeichhorn"
+twitter = "helge_e"
+email = "helge@helgeeichhorn.de"
+
+## Extras
+[params.extra]
+copyright = "© 2017. Helge Eichhorn. [Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
+poweredby = true
+hightlightjs = true
